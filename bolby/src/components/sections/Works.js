@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
+// import useEffect from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import Pagetitle from "../elements/Pagetitle";
 import Portfolio from "../elements/Portfolio";
@@ -135,10 +136,10 @@ function Works() {
   const [visibleItems, setVisibleItems] = useState([]);
   const [noMorePost, setNoMorePost] = useState(false);
 
-  useEffect(() => {
-    setActiveFilter(filters[0].text.toLowerCase());
-    setVisibleItems(getAllItems.filter((item) => item.id <= dataVisibleCount));
-  }, []);
+  // useEffect(() => {
+  //   setActiveFilter(filters[0].text.toLowerCase());
+  //   setVisibleItems(getAllItems.filter((item) => item.id <= dataVisibleCount));
+  // }, []);
 
   const handleChange = (e) => {
     e.preventDefault();
