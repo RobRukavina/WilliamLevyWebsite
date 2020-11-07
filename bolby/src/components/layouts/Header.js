@@ -63,7 +63,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-user-following"></i>About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="active"
                 to="section-services"
@@ -73,7 +73,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               >
                 <i className="icon-briefcase"></i>Services
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 activeClass="active"
@@ -85,7 +85,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-graduation"></i>Experience
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="active"
                 to="section-works"
@@ -95,8 +95,8 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               >
                 <i className="icon-layers"></i>Works
               </Link>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link
                 activeClass="active"
                 to="section-blogs"
@@ -106,7 +106,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               >
                 <i className="icon-note"></i>Blog
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 activeClass="active"
@@ -123,7 +123,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} Bolby Template.
+            &copy; {new Date().getFullYear()} William Levy.
           </span>
         </div>
       </header>

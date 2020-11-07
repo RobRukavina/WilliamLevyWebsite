@@ -16,7 +16,14 @@ function Herosection(props) {
   };
 
   return (
-    <section id="home" className="home d-flex align-items-center">
+    <section
+      id="home"
+      className={
+        props.light
+          ? "home d-flex align-items-center light"
+          : "home d-flex align-items-center"
+      }
+    >
       <div className="container">
         <div className="intro">
           <div className="containter" style={{}}>
@@ -48,15 +55,15 @@ function Herosection(props) {
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-instagram"></i>
+                <i className="fab fa-github"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="!#">
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
-            <li className="list-inline-item">
+            {/* <li className="list-inline-item">
               <a href="!#">
                 <i className="fab fa-behance"></i>
               </a>
@@ -70,7 +77,7 @@ function Herosection(props) {
               <a href="!#">
                 <i className="fab fa-pinterest-p"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <div className="mt-4">

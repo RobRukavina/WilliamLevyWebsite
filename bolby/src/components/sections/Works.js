@@ -178,7 +178,7 @@ function Works() {
   };
 
   return (
-    <section id="works">
+    <section id="works" style={{ display: "100vh" }}>
       <div className="container">
         <Pagetitle title="Recent Works" />
         {/* Start Portfolio Filters */}
