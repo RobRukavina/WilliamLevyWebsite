@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import Logo from "../elements/Logo";
+// import Logo from "../elements/Logo";
 
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
   const handleClasses = () => {
@@ -34,11 +34,13 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               <span></span>
             </button>
           </div>
-          <Logo logoSource={logoSource} />
+          William Levy
+          {/* <Logo logoSource={logoSource} /> */}
         </div>
       </header>
       <header className={handleClasses()}>
-        <Logo logoSource={logoSource} />
+        William Levy
+        {/* <Logo logoSource={logoSource} /> */}
         <nav>
           <ul className="vertical-menu scrollspy">
             <li>
