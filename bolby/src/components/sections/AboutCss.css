@@ -1,0 +1,34 @@
+.myPTag {
+    padding: 25px !important;
+}
+
+@media (min-width: 300px) {
+  .myPTag {
+   display: none !important;
+  }
+}
+@media (min-width: 320px) {
+  .myPTag {
+    display: none !important;
+  }
+}
+@media (min-width: 400px) {
+  .myPTag {
+    display: none !important;
+  }
+}
+@media (min-width: 576px) {
+  .myPTag {
+    display: none !important;
+  }
+}
+@media (min-width: 767px) {
+  .myPTag {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .myPTag {
+    display: block !important;
+  }
+}

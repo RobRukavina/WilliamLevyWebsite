@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutCss.css"; 
 // import TrackVisibility from "react-on-screen";
 // import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
@@ -10,7 +11,7 @@ import WillBlue from "../../images/WillBlue.jpg";
 const aboutContent = {
   name: "William Levy",
   content:
-    "I am a Full Stack Developer with experience in React.js, .NET Core/C#, and SQL Server. I like to make functional things out of lines of code and especially love watching it all come together!",
+    "I am a Full Stack Developer with experience in React.js, .NET Core/C#, and SQL Server. I like to make functional things out of lines of code and especially love watching it all come together! Currently I'm looking for new opportunities and would love to have a conversation about what I can contribute to your team.",
 };
 
 // const progressData = [
@@ -91,24 +92,28 @@ function About() {
                 </div>
                 <div className="col-md-6">
                   <span style={{ fontWeight: "bold" }}>Skills:</span>
-                  <div className="row">
-                    <div className="col-md-3"></div>
-                    <ul>
-                      <li>JavaScript</li>
-                      <li>React.js</li>
-                      <li>jQuery</li>
-                      <li>AJAX</li>
-                      <li>Bootstrap 4</li>
-                    </ul>
-                    <div className="col-md-3"></div>
+                  <div className="row" >
+                    <div className="col-md-3">
+                      <ul>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                        <li>jQuery</li>
+                        <li>AJAX</li>
+                        <li>Bootstrap 4</li>
+                      </ul>
+                    </div>
+                    <p className="myPTag"/>
+                    <div className="col-md-3">
                     <ul>
                       <li>ADO.NET</li>
-                      <li>ASP.NET</li>
-                      <li>SSMS</li>
-                      <li>SQL</li>
-                      <li>T-SQL</li>
-                    </ul>
+                        <li>ASP.NET</li>
+                        <li>SSMS</li>
+                        <li>SQL</li>
+                        <li>T-SQL</li>
+                      </ul>
+                    </div>
                   </div>
+                  {/* </div> */}
                   {/* {progressData.map((progress) => (
                     <TrackVisibility
                       once
