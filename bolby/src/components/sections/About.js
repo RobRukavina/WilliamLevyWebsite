@@ -11,7 +11,7 @@ import WillBlue from "../../images/WillBlue.jpg";
 const aboutContent = {
   name: "William Levy",
   content:
-    "I am a Full Stack Developer with experience in React.js, .NET Core/C#, and SQL Server. I like to make functional things out of lines of code and especially love watching it all come together! Currently I'm looking for new opportunities and would love to have a conversation about what I can contribute to your team.",
+    "Just starting out as a Full Stack Developer I find the struggle and research into getting code to work the way I want, to be extremely gratifying! The challenge keeps me learning every day. Currently I'm looking for new opportunities and would love to have a conversation about what I can contribute to your team.",
 };
 
 // const progressData = [
@@ -79,7 +79,7 @@ function About() {
               <div className="row">
                 <div className="col-md-6">
                   <p style={{ fontWeight: "bold" }}>{aboutContent.name}</p>
-                  <p>{aboutContent.content}</p>
+                  <p style={{ paddingRight: "10px" }}>{aboutContent.content}</p>
                   <div className="mt-3">
                     {/* <a href="!#" className="btn btn-default">
                       Download CV
@@ -92,7 +92,7 @@ function About() {
                 </div>
                 <div className="col-md-6">
                   <span style={{ fontWeight: "bold" }}>Skills:</span>
-                  <div className="row" >
+                  <div className="row">
                     <div className="col-md-3">
                       <ul>
                         <li>JavaScript</li>
@@ -100,12 +100,15 @@ function About() {
                         <li>jQuery</li>
                         <li>AJAX</li>
                         <li>Bootstrap 4</li>
+                        <li>HTML5</li>
                       </ul>
                     </div>
-                    <p className="myPTag"/>
+                    <p className="myPTag" />
                     <div className="col-md-3">
-                    <ul>
-                      <li>ADO.NET</li>
+                      <ul>
+                        <li>CSS3</li>
+                        <li>SCSS</li>
+                        <li>ADO.NET</li>
                         <li>ASP.NET</li>
                         <li>SSMS</li>
                         <li>SQL</li>
