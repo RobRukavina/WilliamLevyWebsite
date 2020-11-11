@@ -26,7 +26,7 @@ function Herosection(props) {
     >
       <div className="container">
         <div className="intro">
-          <div className="containter" style={{}}>
+          <div className="containter">
             <img
               src={Will}
               alt="Bolby"
@@ -54,13 +54,21 @@ function Herosection(props) {
 
           <ul className="social-icons light list-inline mb-0 mt-4">
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-github"></i>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/william-levy-a90403b0/"
+              >
+                <i className="fab fa-linkedin"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="!#">
-                <i className="fab fa-linkedin"></i>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/William-Levy"
+              >
+                <i className="fab fa-github"></i>
               </a>
             </li>
             {/* <li className="list-inline-item">

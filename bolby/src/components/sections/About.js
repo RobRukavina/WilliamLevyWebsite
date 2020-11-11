@@ -4,29 +4,31 @@ import TrackVisibility from "react-on-screen";
 import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
+// import image
+import WillBlue from "../../images/WillBlue.jpg";
+
 const aboutContent = {
-  name: "Bolby",
-  avatarImage: "/images/avatar-2.svg",
+  name: "William Levy",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "I am a Full Stack Developer with experience in React.js, .NET Core/C#, and SQL Server. I like to make functional things out of lines of code and especially love watching it all come together!",
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development",
-    percantage: 85,
-    progressColor: "#FFD15C",
-  },
-  {
-    id: 2,
-    title: "UI/UX Design",
+    title: "React.Js",
     percantage: 95,
     progressColor: "#FF4C60",
   },
   {
+    id: 2,
+    title: ".NET Core/C#",
+    percantage: 85,
+    progressColor: "#FF4C60",
+  },
+  {
     id: 3,
-    title: "Photography",
+    title: "SQL Server",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
@@ -67,20 +69,20 @@ function About() {
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
+              <img src={WillBlue} alt={aboutContent.name} />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
-
           <div className="col-md-9 triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
+                  <p style={{ fontWeight: "bold" }}>{aboutContent.name}</p>
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                    {/* <a href="!#" className="btn btn-default">
                       Download CV
-                    </a>
+                    </a> */}
                   </div>
                   <div
                     className="spacer d-md-none d-lg-none"
@@ -88,7 +90,26 @@ function About() {
                   ></div>
                 </div>
                 <div className="col-md-6">
-                  {progressData.map((progress) => (
+                  <span style={{ fontWeight: "bold" }}>Skills:</span>
+                  <div className="row">
+                    <div className="col-md-3"></div>
+                    <ul>
+                      <li>JavaScript</li>
+                      <li>React.js</li>
+                      <li>jQuery</li>
+                      <li>AJAX</li>
+                      <li>Bootstrap 4</li>
+                    </ul>
+                    <div className="col-md-3"></div>
+                    <ul>
+                      <li>ADO.NET</li>
+                      <li>ASP.NET</li>
+                      <li>SSMS</li>
+                      <li>SQL</li>
+                      <li>T-SQL</li>
+                    </ul>
+                  </div>
+                  {/* {progressData.map((progress) => (
                     <TrackVisibility
                       once
                       key={progress.id}
@@ -96,7 +117,7 @@ function About() {
                     >
                       <Skill progress={progress} />
                     </TrackVisibility>
-                  ))}
+                  ))} */}
                 </div>
               </div>
             </div>
