@@ -2,29 +2,29 @@ import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 import Timeline from "../elements/Timeline";
 
-const educationData = [
-  {
-    id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-  {
-    id: 3,
-    title: "Honours Degree",
-    years: "2013 - 2009",
-    content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
-  },
-];
+// const educationData = [
+//   {
+//     id: 1,
+//     title: "Acamedic Degree",
+//     years: "2019 - Present",
+//     content:
+//       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+//   },
+//   {
+//     id: 2,
+//     title: "Bachelor’s Degree",
+//     years: "2017 - 2013",
+//     content:
+//       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+//   },
+//   {
+//     id: 3,
+//     title: "Honours Degree",
+//     years: "2013 - 2009",
+//     content:
+//       "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+//   },
+// ];
 
 const experienceData = [
   {

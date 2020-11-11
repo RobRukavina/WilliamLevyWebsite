@@ -1,8 +1,8 @@
 import React from "react";
-import TrackVisibility from "react-on-screen";
+// import TrackVisibility from "react-on-screen";
 // import Counter from "../elements/Counter";
 import Pagetitle from "../elements/Pagetitle";
-import Skill from "../elements/Skill";
+// import Skill from "../elements/Skill";
 
 // import image
 import WillBlue from "../../images/WillBlue.jpg";
@@ -13,26 +13,26 @@ const aboutContent = {
     "I am a Full Stack Developer with experience in React.js, .NET Core/C#, and SQL Server. I like to make functional things out of lines of code and especially love watching it all come together!",
 };
 
-const progressData = [
-  {
-    id: 1,
-    title: "React.Js",
-    percantage: 95,
-    progressColor: "#FF4C60",
-  },
-  {
-    id: 2,
-    title: ".NET Core/C#",
-    percantage: 85,
-    progressColor: "#FF4C60",
-  },
-  {
-    id: 3,
-    title: "SQL Server",
-    percantage: 70,
-    progressColor: "#6C6CE5",
-  },
-];
+// const progressData = [
+//   {
+//     id: 1,
+//     title: "React.Js",
+//     percantage: 95,
+//     progressColor: "#FF4C60",
+//   },
+//   {
+//     id: 2,
+//     title: ".NET Core/C#",
+//     percantage: 85,
+//     progressColor: "#FF4C60",
+//   },
+//   {
+//     id: 3,
+//     title: "SQL Server",
+//     percantage: 70,
+//     progressColor: "#6C6CE5",
+//   },
+// ];
 
 // const counterData = [
 //   {
